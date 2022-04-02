@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 window.companyName="Add Company Name"//Add your Company Name
 window.token="Add Token"// Add your token, this is gotten by clicking on the Simple Integration link then
 // clicking copy link under Premium Integration
@@ -57,4 +57,3 @@ input.addEventListener("keyup", function(event) {
   }
 });
 
-</script>
