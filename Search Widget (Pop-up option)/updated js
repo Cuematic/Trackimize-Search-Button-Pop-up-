@@ -1,7 +1,7 @@
 window.companyName="Add Company Name"//Add your Company Name
 window.token="Add Token"// Add your token, this is gotten by clicking on the Simple Integration link then
 // clicking copy link under Premium Integration
-// e.g:https://chidiejike.wixsite.com/trackimize/embedded-security-search-private?search=44cse0aa-9753-47fe-a4ac-efe1dwee73de 
+// e.g:https://trackimize.com/embedded-security-search-private?search=44cse0aa-9753-47fe-a4ac-efe1dwee73de 
 // 44cse0aa-9753-47fe-a4ac-efe1dwee73de would be your token
 // Note: You must be logged in and filled the ownership form to access your token, do not leave spaces
 // Note: Your token is not a secret key and does not compromise security
@@ -43,9 +43,9 @@ caller2()
   function goto(){
     window.searr=document.getElementById("searcher").value;
     if(window.token!==""){
-        window.open("https://chidiejike.wixsite.com/trackimize/embedded-security-search-personal?token="+window.token+"&param="+window.searr+"&parame="+window.companyName,"_blank","height=500px, width=805px, top=140px, left=275px")}
+        window.open("https://trackimize.com/embedded-security-search-personal?token="+window.token+"&param="+window.searr+"&parame="+window.companyName,"_blank","height=500px, width=805px, top=140px, left=275px")}
     else if(window.token===""){
-    window.open("https://chidiejike.wixsite.com/trackimize/embedded-security-search?search="+window.searr,"_blank","height=500px, width=805px, top=140px, left=275px")}
+    window.open("https://trackimize.com/embedded-security-search?search="+window.searr,"_blank","height=500px, width=805px, top=140px, left=275px")}
   }
   
   var input = document.getElementById("searcher");
